@@ -1,0 +1,20 @@
+language: en #en|ru
+
+telegram:
+  token: 123456789:qwerty #BOT_Token (@BotFather). #Токен бота. (@BotFather)
+  bot_username: qwerty_bot #Username bot without @. #Юзернейм бота без @.
+  notifications: #Telegram notifications for administrators. #ТГ уведомления для администраторов.
+    enable_op: true #If the player with op enters a command, you will be told. #Если OP-игрок введет команду, то вам сообщит бот об этом.
+    enable_bot_started: true #Notification that the bot is running #Уведомление о запуске бота.
+    enable_update: true #Update notification (TG) (Temporarily not working) #Уведомление о обновлении (ТГ) (Временно не работает)
+  rcon: #For the operation of the console and commands in the bot. #Для работы консоли и команд в боте.
+    enable: true #Turn off the administrator console (Admin menu, will continue to work. RCON is required.) #Выключить консоль администратора (Админ меню, продолжит работу. RCON обязателен.).
+    rcon_host: 0.0.0.0 #Local IP #Локальный IP
+    rcon_port: 25575 #RCON Port (server.properties) #RCON Порт (server.properties)
+    rcon_pass: qwerty #RCON Password (server.properties) #RCON Пароль (server.properties)
+
+  admin_ids: #Administrators who have access to the bot. (@getmyid_bot) #Администраторы у которых есть доступ к боту. (@getmyid_bot)
+    - 123456789
+    - 123456789
+update:
+  enable: false #Update notification (Console) (Temporarily not working) #Уведомление о обновлении (Консоль) (Временно не работает)

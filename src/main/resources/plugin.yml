@@ -1,0 +1,25 @@
+name: TelegramRemote
+version: '${project.version}'
+main: me.drazz.telegramremote.TelegramRemote
+api-version: '1.16'
+author: drazz
+description: TelegramBot for remote control server.
+
+commands:
+  telegramremote:
+    description: Main Command
+    permission: telegramremote.commands
+    aliases:
+      - tr
+      - tgremote
+
+permissions:
+  telegramremote.commands:
+    description: "Access to the '/tr command' to list all sub commands"
+    default: op
+  telegramremote.commands.reload:
+    description: "Access to the '/tr reload' command"
+    default: op
+  telegramremote.commands.help:
+    description: "Access to the '/pm help' command"
+    default: op

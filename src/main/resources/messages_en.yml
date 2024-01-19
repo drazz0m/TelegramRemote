@@ -1,0 +1,57 @@
+messages:
+  noPermission: '§7[§9TG REMOTE§7] §cInsufficient permissions!'
+  reload_successful: '§7[§9TG REMOTE§7] §aPlugin reloaded successfully.'
+  usage: '§7[§9TG REMOTE§7] §cUsage: §7/telegramremote [sub_command]'
+  help: |
+    §9-----------------------------------------
+    §7/help - §bDisplay this menu
+    §7/reload - §bReload configurations
+    §9-----------------------------------------
+
+  telegram:
+    start: '👋 Hello! I am a bot designed to assist with server administration.'
+    console: '💬 Enter command:'
+    admin_not_found: '🚫 You are not on the admin list!'
+    bot_started: '🤖 Bot started!'
+    cmd_successfully_send: '✅ Command successfully sent.'
+    quit_console: '🚪 Exit console.'
+    console_disabled: '⚠️ Console is disabled in the configuration.'
+    back_menu: '🔙 Back to the main menu.'
+    op_text: '🛑 Trying to use OP! Player: '
+    admin_menu:
+      main_menu: '👑 Administrator menu:'
+      restart: '🔄 Restarting server'
+      reload: '🔃 Reload server'
+      shutdown: '🛑 Shutdown server'
+      reload_plugin: '🔄 Reload TelegramRemote'
+      settings: '⚙️ Bot settings'
+      menu_admin: '👤 ADMIN Menu'
+      console_menu: '💻 ADMIN Console'
+      reloading_plugin: '🔄 Reloading plugin...'
+      settings_bot:
+        settings_text: '🤖  Bot settings: '
+        lang: ' [🇺🇸]'
+        language_button: '🌐 Language'
+        notifications_button: '🔔 Notifications'
+        notifications_message: '🔔 Notifications: '
+        notification_op: '🚫 OP Usage Notice '
+        notification_bot_started: '🤖 Notification about bot launch '
+        notification_update: '🔄 Update Notification '
+        enable_console_button: '💻 Admin Console '
+        admin_add_button: '➕ Add Admin'
+        check_update_button: '🔄 Check Updates '
+        chat_id_text: '💬 Enter CHAT-ID:'
+        admin_added_text: '👤 Admin added.'
+        incorrect_id: '⚠️ Please enter a valid numeric value.'
+      confirm:
+        confirm_text: '❓ Are you sure?'
+        yes_text: '✅ Yes'
+        no_text: '❌ No'
+        reload: '🔃 Reload server...'
+        restart: '🔄 Restart server...'
+        shutdown: '🛑 Shutdown server...'
+        normal_mode: '🔄 Continue to work as usual.'
+
+  update:
+    upd_text: '🚀 A new version of the plugin is available! Current version: '
+    upd_text_two: ' New version: '
