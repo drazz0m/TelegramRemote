@@ -109,5 +109,5 @@ This project is licensed under the MIT License.
 Сообщайте о проблемах и багах.
 
 ## Лицензия
-Этот проект лицензирован в соответствии с MIT License).
+Этот проект лицензирован в соответствии с MIT License.
 
