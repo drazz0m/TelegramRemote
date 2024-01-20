@@ -7,7 +7,7 @@
  * of Telegram with Bukkit servers for server administration.
  * Usage: /telegramremote <command>
  * -----------------------------------------------------------------------------
- * Version: 1.0.0
+ * Version: 1.0.1
  * Last Updated: January 20, 2024
  * -----------------------------------------------------------------------------
  */
@@ -31,7 +31,7 @@ public final class TelegramRemote extends JavaPlugin {
     Main_BOT telegramBot = new Main_BOT();
     private static TelegramRemote instance;
     private static YamlConfiguration messagesConfig;
-    private CheckUpdate checkUpdate;
+
     @Override
     public void onEnable() {
         instance = this;
@@ -52,18 +52,14 @@ public final class TelegramRemote extends JavaPlugin {
             e.printStackTrace();
         }
         telegramBot.bot_started_notif();
-        /*
 
         if (getConfig().getBoolean("update.enable")) {
             String currentVersion = getDescription().getVersion();
-            checkUpdate = new CheckUpdate(this, currentVersion);
+            CheckUpdate checkUpdate = new CheckUpdate(this, currentVersion);
             checkUpdate.checkForUpdateAsync();
         }
 
-         */
-
         getLogger().info("Plugin launched successfully!");
-
     }
 
     @Override

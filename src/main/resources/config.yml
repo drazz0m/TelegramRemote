@@ -17,4 +17,4 @@ telegram:
     - 123456789
     - 123456789
 update:
-  enable: false #Update notification (Console) (Temporarily not working) #Уведомление о обновлении (Консоль) (Временно не работает)
+  enable: true #Update notification (Console) (Temporarily not working) #Уведомление о обновлении (Консоль) (Временно не работает)

@@ -7,7 +7,7 @@
  * plugin by querying information from the SpigotMC API and notifying
  * administrators in case of a new version.
  * -----------------------------------------------------------------------------
- * Version: 1.0.0
+ * Version: 1.0.1
  * Last Updated: January 19, 2024
  * -----------------------------------------------------------------------------
  */
@@ -61,7 +61,7 @@ public class CheckUpdate {
 
     private void checkForUpdate() {
         try {
-            int idPlugin = 0;
+            int idPlugin = 114605;
             URL url = new URL("https://api.spigotmc.org/simple/0.1/index.php?action=getResource&id=" + idPlugin);
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             InputStreamReader reader = new InputStreamReader(connection.getInputStream());
