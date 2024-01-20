@@ -53,7 +53,7 @@ Receive notifications about:
 Report issues and bugs.
 
 ## License
-This project is licensed under the [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) license.
+This project is licensed under the MIT License.
 
 # RU
 Это плагин для Spigot для серверов Minecraft, который обеспечивает удаленное управление и уведомления через Telegram. Бот взаимодействует с консолью сервера, предоставляет административные функции и отправляет уведомления на основе конкретных событий.
@@ -109,5 +109,5 @@ This project is licensed under the [Apache 2.0](https://www.apache.org/licenses/
 Сообщайте о проблемах и багах.
 
 ## Лицензия
-Этот проект лицензирован в соответствии с [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+Этот проект лицензирован в соответствии с MIT License).
 
